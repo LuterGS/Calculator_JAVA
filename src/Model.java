@@ -143,6 +143,7 @@ public class Model {
 
         System.out.printf("%s , operator %s\n", number, operator);
         if(operator.equals("sqrt")){
+
             num = Math.sqrt(num);
         }else if(operator.equals("x^2")){
             num = Math.pow(num, 2);
